@@ -1,0 +1,61 @@
+#container{
+    background-color: steelblue;
+    border-top: solid 20px black;
+    border-bottom: solid 20px black;
+    width: 1400px;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+   
+}
+#esquerdo{
+    background-color: #d9d9d9;
+     width: 620px;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0px;
+     padding: 0px;
+
+     
+}
+#direita{
+      background-color:white;
+      height: 100vh;
+      width: 840px;
+}
+#es1{
+
+    margin: auto;
+    width: 100%;
+    height: 19%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+#img{
+
+ transform: scale(1.1);
+}
+#es2{
+     font-size: 32px;
+     font-family:'Ruda',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 120px;
+}
+#es3{
+    display: flex;
+    flex-direction: row;
+
+}
+#im1{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    transform: scale(0.2);
+}
